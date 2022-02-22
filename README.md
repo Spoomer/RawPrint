@@ -5,7 +5,6 @@ RawPrint
 
 Send PostScript, PCL or other print file types directly to a printer.
 
-
 Usage:
 
         using RawPrint;
@@ -16,10 +15,11 @@ Usage:
         // Print the file
         printer.PrintRawFile(PrinterName, Filepath, Filename);
 
-	
-Forked from ekonbenefits, who forked from frogmorecs 
-till Version 0.5.0 orignally from: 
-Copyright (c) Frogmore Computer Services Ltd
+Installation:
+
+To install Raw Print, run the following command in the [Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console)
+
+	PM> Install-Package RawPrint
 
 *2019-09-12 Version 0.5.0*
 
