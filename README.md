@@ -1,11 +1,10 @@
 RawPrint
 ========
 
-.Net library to send files directly to a Windows printer bypassing the printer driver.
+.Net Standard library to send files directly to a Windows printer bypassing the printer driver.
 
 Send PostScript, PCL or other print file types directly to a printer.
 
-Requires .Net 4 runtime on Windows XP to 10 and Server 2003 to 2012.
 
 Usage:
 
@@ -17,11 +16,10 @@ Usage:
         // Print the file
         printer.PrintRawFile(PrinterName, Filepath, Filename);
 
-Installation:
-
-To install Raw Print, run the following command in the [Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console)
-
-	PM> Install-Package RawPrint
+	
+Forked from ekonbenefits, who forked from frogmorecs 
+till Version 0.5.0 orignally from: 
+Copyright (c) Frogmore Computer Services Ltd
 
 *2019-09-12 Version 0.5.0*
 
